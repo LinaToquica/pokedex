@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo300"
+    android:orientation="vertical"
+    tools:context="lina.pokeapp.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="561dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="76dp"
+                    app:srcCompat="@drawable/pokedex"
+                    android:layout_alignBottom="@+id/login_email"
+                    android:layout_centerHorizontal="true" />
+
+                <EditText
+                    android:id="@+id/login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/cardview_light_background"
+                    android:ems="11"
+                    android:hint="Email"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+                    android:layout_marginTop="213dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardview_light_background"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+                    android:layout_below="@+id/imageView"
+                    android:layout_alignStart="@+id/login_email"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignEnd="@+id/login_email" />
+
+                <Button
+                    android:id="@+id/loginbt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_light"
+                    android:text="Ingresar"
+                    android:textColor="#ffffff"
+                    android:layout_alignTop="@+id/login_password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="63dp" />
+
+                <Button
+                    android:id="@+id/nuevousuariobt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_light"
+                    android:text="Nueva Cuenta"
+                    android:textColor="@color/cardview_light_background"
+                    android:layout_marginTop="12dp"
+                    android:layout_below="@+id/loginbt"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

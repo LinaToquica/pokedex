@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2565d0"
+    android:orientation="vertical"
+    tools:context="lina.pokeapp.Registro_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="612dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/fondodetalleregister" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="11dp"
+                    android:ems="10"
+                    android:hint="Tu email..."
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_focused" />
+
+                <EditText
+                    android:id="@+id/nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/email"
+                    android:layout_alignStart="@+id/email"
+                    android:layout_marginBottom="17dp"
+                    android:ems="10"
+                    android:hint="Tu nombre..."
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_focused" />
+
+                <Button
+                    android:id="@+id/registrarbt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="63dp"
+                    android:layout_marginStart="39dp"
+                    android:background="@android:color/holo_red_dark"
+                    android:text="Registrarme"
+                    android:textColor="@color/cardview_light_background"
+                    android:layout_alignBottom="@+id/imageView3"
+                    android:layout_alignStart="@+id/password" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="67dp"
+                    app:srcCompat="@drawable/registrate" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/registrarbt"
+                    android:layout_alignStart="@+id/email"
+                    android:layout_marginBottom="48dp"
+                    android:ems="10"
+                    android:hint="password"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_focused" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "447040409750",
+    "firebase_url": "https://pokemon-563f9.firebaseio.com",
+    "project_id": "pokemon-563f9",
+    "storage_bucket": "pokemon-563f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447040409750:android:342be928be9ed851",
+        "android_client_info": {
+          "package_name": "lina.ejemplopokemon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447040409750-h0q5psvnhna0usn39mm0k5879hibmapr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lina.ejemplopokemon",
+            "certificate_hash": "e1715914c04ccf633a0cc6f177ff8da395a4a53a"
+          }
+        },
+        {
+          "client_id": "447040409750-e5ho9bbesrhvel6ko7vmedhp352uupjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKMDM0A33DO4DIEF7KYxkXfElaAknQ_tc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447040409750-e5ho9bbesrhvel6ko7vmedhp352uupjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447040409750:android:bcf6076f5f6233d0",
+        "android_client_info": {
+          "package_name": "lina.pokeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447040409750-08ae3pn8v5en3av6rbn1t35l3krablip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lina.pokeapp",
+            "certificate_hash": "e1715914c04ccf633a0cc6f177ff8da395a4a53a"
+          }
+        },
+        {
+          "client_id": "447040409750-e5ho9bbesrhvel6ko7vmedhp352uupjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKMDM0A33DO4DIEF7KYxkXfElaAknQ_tc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447040409750-e5ho9bbesrhvel6ko7vmedhp352uupjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
